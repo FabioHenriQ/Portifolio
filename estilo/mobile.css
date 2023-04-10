@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+@media (max-width:1324px){
+    .card-projeto{
+        width: 49%;
+    }
+    .img-btn-projeto{
+        width: 40%;
+    }
+    .img-btn-projeto h4{
+        font-size: 16px;
+    }
+    .img-btn-projeto .logo-destaque{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width:1024px){
+    #desktop{
+        display: none;
+    }
+    .mobile-pag{
+        display: none;
+    }
+    .pag{
+        display: none;
+    }
+    /*----------------Header---------------*/
+    header nav{
+        padding: 10px 40px;
+        font-size: 15px;
+        align-items: center;
+        background-color: #1f1e1e;
+    }
+    .mob{
+        display: block;
+        flex-direction: column;
+    }
+    .mobile-pag li{
+        list-style: none;
+        font-size: 50px;
+    }
+    .open{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2%;
+    }
+    #mobile{
+        display: block;
+    }
+    .menu-mobile{
+        margin-left: 80px;
+        height: 50px;
+        width: 50px;
+    }
+    .menu-mobile img{
+        height: 40px;
+        width: 40px;
+    }
+    .menu-mobile button{
+        background-color: transparent;
+        cursor: pointer;
+        border: 0;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /*----------------Sobre---------------*/
+    /*----------------Tecnologias---------------*/
+    #tecnologias{
+        max-width: 1024px;
+    }
+    .position-img{
+        width: 40%;
+        height: 40%;
+        padding: 5% 0 0 2%;
+    }
+    .position-img img{
+        width: 100%;
+        height: 100%;
+    }
+    /*----------------Projetos---------------*/
+    .img-btn-projeto{
+        width: 100%;
+    }
+    .img-btn-projeto h4{
+        font-size: 16px;
+    }
+    .img-btn-projeto .logo-destaque{
+        width: 100px;
+        height: 100px;
+    }
+    .card-projeto{
+        width: 60%;
+    }
+    /*----------------Footer---------------*/
+    footer {
+        width: 95%;
+        display: block;
+    }
+    .creditos{
+        display: block;
+    }
+}
+
+
+
+@media (max-width:780px){
+    #desktop{
+        display: none;
+    }
+    .mobile-pag{
+        display: none;
+    }
+    .pag{
+        display: none;
+    }
+    .position-img{
+        display: none;
+    }
+    /*----------------Header---------------*/
+    header nav{
+        padding: 10px 40px;
+        font-size: 15px;
+        align-items: center;
+    }
+    .open{
+        display: block;
+    }
+    #mobile{
+        display: block;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pag ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .menu-mobile button{
+        background-color: transparent;
+        cursor: pointer;
+        border: 0;
+    }
+    /*----------------Sobre---------------*/
+    #sobre{
+        display: flex;
+        padding: 100px 0 0 10px;
+    }
+    #sobre p{
+        padding: 2%;
+        margin: 0;
+    }
+    .fabio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fabio .img-fabio{
+        width: 110px;
+        height: 110px;
+    }
+    .info-fabio img:hover{
+        width: 9vh;
+        height: 9vh;
+    }
+    /*----------------Tecnologias---------------*/
+    /*----------------Projetos---------------*/
+    #projetos{
+        padding: 5%;
+        margin-top: 2%;
+    }
+    .destaque{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-btn-projeto{
+        width: 150%;
+    }
+    .img-btn-projeto h4{
+        font-size: 16px;
+    }
+    .img-btn-projeto .logo-destaque{
+        width: 100px;
+        height: 100px;
+    }
+    .img-btn-projeto img{
+        border-radius: 15px;
+    }
+    .title-card img{
+        width: 200px;
+    }
+    .todos-projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-projeto{
+        width: 90%;
+    }
+    .card-breve img{
+        width: 80%;
+        height: 90%;
+    }
+    .card-projeto a{
+        width: 100%;
+        animation-name: brilho;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    /*----------------Footer---------------*/
+    footer {
+        width: 95%;
+        display: block;
+    }
+    .creditos{
+        display: block;
+    }
+}
+
+
+
+@media (max-width:480px){
+    #desktop{
+        display: none;
+    }
+    .mobile-pag{
+        display: none;
+    }
+    .pag{
+        display: none;
+    }
+    .position-img{
+        display: none;
+    }
+    /*----------------Header---------------*/
+    header nav{
+        padding: 10px 40px;
+        font-size: 15px;
+        align-items: center;
+    }
+    .open{
+        display: block;
+    }
+    #mobile{
+        display: block;
+    }
+    .menu-mobile img{
+        width: 50px;
+        height: 50px;
+    }
+    .menu-mobile button{
+        background-color: transparent;
+        cursor: pointer;
+        border: 0;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /*----------------Sobre---------------*/
+    #sobre{
+        display: flex;
+        padding: 100px 0 0 10px;
+    }
+    #sobre p{
+        padding: 2%;
+        margin: 0;
+    }
+    .fabio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fabio .img-fabio{
+        width: 110px;
+        height: 110px;
+    }
+    .info-fabio a:hover{
+        pointer-events: none;
+    }
+    /*----------------Tecnologias---------------*/
+    #tecnologias{
+        width: 90%;
+    }
+    #tecnologias h1{
+        font-size: 6vh;
+    }
+    .position{
+        display: flex;
+        flex-direction: column;
+    }
+    /*----------------Projetos---------------*/
+    #projetos{
+        padding: 5%;
+        margin-top: 2%;
+    }
+    .projeto-destaque{
+        overflow: hidden;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .destaque{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .img-btn-projeto{
+        width: 100%;
+        height: 100%;
+    }
+    .img-btn-projeto img{
+        border-radius: 15px;
+    }
+    .todos-projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 20px;
+    }
+    .title-card{
+        margin: 10px 0 10px 0;
+        width: 100%;
+        align-items: center;
+    }
+    .card-projeto{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    .info-card-projeto{
+        width: 100%;
+        height: 100%;
+        border-top: 1px solid #1f1e1e;
+        border-left: 0;
+        margin: 0;
+        padding: 0;
+        justify-content: left;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    .card-projeto a{
+        width: 95%;
+        animation-name: brilho;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .botao{
+        margin-top: 10%;
+    }
+    /*----------------Footer---------------*/
+    footer {
+        width: 95%;
+        display: block;
+        font-size: 11px;
+    }
+    .creditos{
+        display: block;
+    }
+}
+@keyframes brilho{
+    from{
+        box-shadow: 0;
+    }
+    to {
+        box-shadow: 0 0 10px 0;
+    }
+}
